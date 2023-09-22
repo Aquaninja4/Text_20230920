@@ -57,13 +57,12 @@ void draw() {
   text ( footer, xFooter, yFooter, widthFooter, heightFooter );
   fill(resetDefaultInk); //ink
   //
-  //
-  //rect(  ); //Title: 
-  //rect(   ); //Footer: 
 } //End draw
 //
-void keyPressed() {} // End keyPressed
+void keyPressed() {
+} // End keyPressed
 //
-void mousePressed() {} //End mousePressed
+void mousePressed() {
+} //End mousePressed
 //
 //MAIN Program
