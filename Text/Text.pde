@@ -2,7 +2,7 @@
 int appWidth, appHeight;
 String title="WOOOOO", footer="YAY";
 PFont titleFont, footerFont;
-color orange=#FF932E, resetDefaultInk=#FFFFFF, purple=#2C08FF;
+color orange=#FF932E, resetDefaultInk=#FFFFFF, purple=#2C08FF, black=#000000;
 int sizeFont, size;
 float xTitle, yTitle, widthTitle, heightTitle;
 float xFooter, yFooter, widthFooter, heightFooter;
