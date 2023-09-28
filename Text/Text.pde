@@ -2,7 +2,7 @@
 int appWidth, appHeight;
 String title="WOOOOO", footer="YAY";
 PFont titleFont, footerFont;
-color orange=#FF932E, resetDefaultInk=#FFFFFF, purple=#2C08FF, black=#000000;
+color orange=#FF932E, resetDefaultInk=#FFFFFF, purple=#8617E8, black=#000000;
 int sizeFont, size;
 float xTitle, yTitle, widthTitle, heightTitle;
 float xFooter, yFooter, widthFooter, heightFooter;
@@ -25,13 +25,14 @@ void setup() {
   //
   // DIVs or rect()
   // Layout our text space and typographical features
+  fill (black);
   rect( xTitle, yTitle, widthTitle, heightTitle ); //Title: WOOOOO
   rect( xFooter, yFooter, widthFooter, heightFooter ); //Footer: YAY
   //
   // Text Setup
   // Fonts from OS (Operating System)
-  String[] fontList = PFont.list(); //Lists all fonts available on OS
-  printArray(fontList);
+  //String[] fontList = PFont.list(); //Lists all fonts available on OS
+  //printArray(fontList);
   titleFont = createFont("Georgia", 55);
   footerFont = createFont("Harrington", 55); //Verify the font exists in Processing.Java
   // Tools / Create Font / Find Font / Do not press "OK", known bug
