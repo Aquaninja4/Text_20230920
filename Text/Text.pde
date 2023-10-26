@@ -1,6 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 String title="WOOOOO", footer="YAY";
+//String [name]="[phrase]", [name]="[phrase]", [etc];
 PFont titleFont, footerFont;
 color orange=#FF932E, resetDefaultInk=#FFFFFF, purple=#8617E8, black=#000000;
 int sizeFont, size;
