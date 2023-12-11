@@ -4,7 +4,7 @@ String title="WOOOOO", footer="YAY";
 //String [name]="[phrase]", [name]="[phrase]", [etc];
 PFont titleFont, footerFont;
 color orange=#FF932E, resetDefaultInk=#FFFFFF, purple=#8617E8, black=#000000;
-int sizeFont, size;
+int sizeFont =60, size;
 float xTitle, yTitle, widthTitle, heightTitle;
 float xFooter, yFooter, widthFooter, heightFooter;
 //
@@ -50,12 +50,12 @@ void draw() {
   textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
   //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
   size = 60;
-  textFont(titleFont, size);
+  textFont(titleFont, sizeFont);
   text ( title, xTitle, yTitle, widthTitle, heightTitle );
   fill(purple); //ink
   textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
   //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-  textFont(footerFont, size);
+  textFont(footerFont, sizeFont);
   text ( footer, xFooter, yFooter, widthFooter, heightFooter );
   fill(resetDefaultInk); //ink
   //
